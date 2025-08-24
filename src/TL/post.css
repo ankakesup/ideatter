@@ -1,0 +1,163 @@
+.post-screen {
+  min-height: 100vh;
+  max-width: 50vw;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+
+  @media (max-width: 900px) {
+    min-height: 100%;
+    max-width: 100vw;
+  }
+}
+
+.post-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #edf2f7; /* Dark background */
+  color: #edf2f7; /* Light text color */
+}
+
+.post-form {
+  margin-bottom: 20px;
+}
+
+.post-header {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.post-middlearea {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.post-namearea {
+  height: 3em;
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.post-explanation-area {
+  height: 6em;
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.count-area {
+  text-align: right;
+  font-size: 12px;
+  color: #718096; /* Tailwind's gray-600 */
+  margin-bottom: 10px;
+}
+
+.post-description-area {
+  height: 10em;
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.error-message-area {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  border: 1px solid #ff5252;
+}
+
+.post-toggle-button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  align-self: flex-start;
+  transition: background-color 0.3s ease;
+}
+
+.post-toggle-button:hover {
+  background-color: #357abd;
+}
+
+.description-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.post-deacription-area {
+  height: 6em;
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #000000;
+  resize: vertical;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.character-count {
+  font-size: 12px;
+  color: #666;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.character-count.warning {
+  color: #ff6b6b;
+  font-weight: bold;
+}
+
+.post-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  color: #000000;
+  resize: vertical;
+}
+
+.post-buttonarea {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.post-submit-button {
+  background-color: #38b2ac; /* Teal color */
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 9999px; /* Full rounded */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.post-errmsg {
+  background-color: #e53e3e; /* Red color */
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
