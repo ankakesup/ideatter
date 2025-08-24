@@ -1,0 +1,13 @@
+.footer {
+  display: none;
+
+  @media (max-width: 600px) {
+    max-width: full;
+    height: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #aaffff;
+  }
+}
