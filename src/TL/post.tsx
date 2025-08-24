@@ -1,21 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import type { FormEvent } from 'react';
 import './post.css';
 
 // Tailwind CSSを読み込むためのscriptタグをindex.htmlに追加してください
 // <script src="https://cdn.tailwindcss.com"></script>
-
-// ツイートデータの型定義 (バックエンドのIdeaOutモデルと一致させる)
-interface Idea {
-  ideaId: number;
-  username: string;
-  explanationA: string;
-  explanationB: string;
-  explanationC: string;
-  description: string;
-  timestamp: string; // JSONで渡される際は文字列になるためstring型で受け取る
-  likes: number;
-}
 
 // Postコンポーネントのprops型定義
 interface PostProps {
