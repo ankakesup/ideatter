@@ -96,32 +96,6 @@ const Timeline = (
     }
   }
 
-  // 「作ってみたい!!」のポスト関数
-  const addCreate = async (id: number) => {
-    try {
-      const response = await fetch(`${API_URL}/post/create`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          ideaId: id,
-          username: "user"
-        })
-      });
-      
-      if (!response.ok) {
-        const errorText = await response.text();
-        console.error('Create error:', errorText);
-        return;
-      }
-      
-      console.log('Create request successful');
-    } catch (err) {
-      console.error('Create request failed:', err);
-    }
-  };
-
 
   // コンポーネントが最初にマウントされた時とrefreshTriggerが変更された時にツイートを取得
   useEffect(() => {
