@@ -1,5 +1,5 @@
 .post-screen {
-  min-height: 100vh;
+  min-height: 90vh;
   max-width: 50vw;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 
@@ -159,5 +159,4 @@
   color: white;
   padding: 10px;
   border-radius: 8px;
-  margin-bottom: 20px;
 }

@@ -5,7 +5,7 @@ function Header() {
     <header className="header">
       <div className="header-inner">
         <a className="header-logo" href="index.html">
-          <img src="logo.png" alt="Ideatter Logo" />
+          <img src="title.png" alt="Ideatter Logo" className="img-title"/>
         </a>
         {/* <div className="userDisplay">
           User: user

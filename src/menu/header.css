@@ -7,9 +7,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-img{
-  max-width: 100%;
-}
 
 header {
   position: relative;
@@ -18,7 +15,7 @@ header {
 
 .header-inner {
   max-width: full;
-  height: 50px;
+  height: 70px;
   margin-left: 0px;
   margin-right: 0px;
   padding-left: 40px;
@@ -27,6 +24,10 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #aaffff;
+}
+
+.img-title{
+  max-height: 50px;
 }
 
 .userDisplay {
